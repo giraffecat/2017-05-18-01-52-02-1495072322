@@ -1,5 +1,4 @@
-// Write your code here
-module.exports = Person()
+
 {
   var person={name:'王雪',age:21};
   function introduce()
