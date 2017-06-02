@@ -1,6 +1,6 @@
 
 
-class person{person（name:'王雪',age:21)};
+class person{constructor（name:'王雪',age:21)};
   function introduce(person)
   {  console.log('my name is'+person.name+'I am'+person.age+'years old');
   }
