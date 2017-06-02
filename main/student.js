@@ -9,4 +9,4 @@ let Person = require('./person')
   introduce(); 
 }
 
-module.exports = Student
+
