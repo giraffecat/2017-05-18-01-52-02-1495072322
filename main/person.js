@@ -1,7 +1,7 @@
 
- function person(){
-  var name=王雪；
-  var age=21；
+ function person(name,age){
+  name=1；
+   age=21；
   return(name,age);}
 function introduce(person) 
 {  
