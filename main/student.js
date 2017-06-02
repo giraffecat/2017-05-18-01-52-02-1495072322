@@ -1,4 +1,4 @@
-let Person = require('./person')
+
 
 {
   var person={name:'王雪',age:21};
