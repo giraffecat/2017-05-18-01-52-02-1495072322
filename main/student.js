@@ -3,10 +3,10 @@
 {
   var person={name:'王雪',age:21};
   person.class=4;
-  function introduce()
+  function introduce(person)
   {  console.log('my name is'+person.name+'   I am'+person.age+'years old   '+'class is'+person.class)
   }
-  introduce(); 
+  introduce(person); 
 }
 
 
