@@ -6,4 +6,4 @@
   }
   introduce();
 }
-module.exports = Person
+
