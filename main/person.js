@@ -4,6 +4,6 @@ function Person(name,age){
   this.introduce=function(){
     console.log('My name is '+this.name+'. I am '+this.age+' years old.')}
 }
-var person=new Person('pill','21');
+var person=new Person('Tom','21');
 person.introduce();
   module.exports = Person
