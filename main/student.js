@@ -1,5 +1,12 @@
 
 let Person = require('./person')
-Person.klss='4';
-Person.introduce()
-module.exports = Student
+function Student(){}
+Student.prototype=new person();
+Student.name='pill';
+Student.age='1';
+Student.klass='4';
+Student.introduce=function(){console.log('my name is'+Student.name+'my age is'+Student.age+'my klass is'+Student.klass)
+                            }
+Student.introduce();
+
+module.exports = Student;
