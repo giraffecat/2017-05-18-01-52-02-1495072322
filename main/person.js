@@ -6,4 +6,4 @@ function Person(name,age){
 }
 var Person=new Person('pill','21');
 Person.introduce();
-  module.exports = Person;
+  module.exports = Person
