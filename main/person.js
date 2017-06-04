@@ -3,7 +3,8 @@ function person(name,age){
   this.age=age;
   this.introduce=function(){
     console.log('my name is'+this.name+',my age is'+this.age)}
+  person.introduce();
 }
-var person=new person('pill','28');
+
 person.introduce();
   module.exports = person;
