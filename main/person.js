@@ -5,5 +5,5 @@ function person(name,age){
     console.log('My name is '+this.name+'. I am '+this.age+' years old.')}
 }
 var person=new person('pill','21');
-person.introduce;
+person.introduce();
   module.exports = person;
