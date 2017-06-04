@@ -4,5 +4,4 @@ function Person(name,age){
   this.introduce=function(){
     alert('My name is'+this.name+' I am '+this.age+' years old.!')}
 }
-
-module.emodule.exports 
+module.exports = Person
