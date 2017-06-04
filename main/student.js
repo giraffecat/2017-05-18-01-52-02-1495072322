@@ -1,5 +1,5 @@
 
 let Person = require('./person')
-person.klss='4';
-person.introduce()
+Person.klss='4';
+Person.introduce()
 module.exports = Student
