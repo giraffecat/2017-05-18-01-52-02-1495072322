@@ -1,7 +1,7 @@
 
 let Person = require('./person')
 function Student(){}
-Student.prototype=new person();
+Student.prototype=new Person();
 Student.name='pill';
 Student.age='1';
 Student.klass='4';
