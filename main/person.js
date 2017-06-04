@@ -1,9 +1,9 @@
-function person(name,age){
+function Person(name,age){
   this.name=name;
   this.age=age;
   this.introduce=function(){
     console.log('My name is '+this.name+'. I am '+this.age+' years old.')}
 }
-var person=new person('pill','21');
-person.introduce();
-  module.exports = person;
+var Person=new person('pill','21');
+Person.introduce();
+  module.exports = Person;
