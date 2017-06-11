@@ -3,6 +3,6 @@ function Person(name,age){
   this.age=age;
   this.introduce=function(){
     console.log('My name is'+this.name+' I am '+this.age+' years old.!')
-  introduce();}
+  this.introduce();}
 }
 module.exports = Person
