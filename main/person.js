@@ -1,4 +1,4 @@
 var person=new Object();
-person.introduce=functio(){
+person.introduce=function(){
   alert('i am tom');
 module.exports = person
