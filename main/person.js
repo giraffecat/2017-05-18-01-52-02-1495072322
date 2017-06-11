@@ -1,7 +1,4 @@
-function person(name,age){
-  this.name=name;
-  this.age=age;
-   this.introduce=function(){
-    console.log('My name is '+this.name+'. I am '+this.age+' years old.');}
-}
+var person=new Object();
+person.introduce=functio(){
+  alert('i am tom');
 module.exports = person
