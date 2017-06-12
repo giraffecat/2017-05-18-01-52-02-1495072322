@@ -1,8 +1,8 @@
 function person(kame,age){
   this.kame=kame;
-  this.age=age;
-  this.introduce=function(){
- console.log("My name is "+this.kame+".I am "+this.age+" years old.");}
+  this.age=age;}
+person.prototype.introduce=function(){
+  return '('my name is'+'this.name+'my age is'+this.age)';
 }
 module.exports = person
 
