@@ -1,5 +1,5 @@
 class person{
-  constructor(){
+  constructor(nsme,age,introduce){
     this.name=name;
     this.age=age;
      this.introduce=function(){
