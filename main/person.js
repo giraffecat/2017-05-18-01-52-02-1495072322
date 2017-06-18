@@ -6,5 +6,5 @@ class person{
   console.log("My name is "+this.name+"."+"I am  "+this.age+"years old.")
 }
 }
-person.introduce();
+
 module.exports = person
