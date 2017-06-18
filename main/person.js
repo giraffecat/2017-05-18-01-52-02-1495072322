@@ -3,8 +3,7 @@ class person{
     this.name=name;
     this.age=age;
   }
-}
-  tostring(){
-  return "my name is"+person.name+"my age is"+person.age;
+  toString(){
+  return "my name is"+person.name+"my age is"+person.age;}
 }
 module.exports = person
