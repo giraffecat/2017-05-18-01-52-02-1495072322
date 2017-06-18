@@ -8,4 +8,5 @@ class person{
 }
   }
 }
+person.introduce();
 module.exports = person
