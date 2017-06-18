@@ -7,6 +7,3 @@ class person{
   
 }
   }
-module.exports = person
-
-
