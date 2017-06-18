@@ -2,7 +2,7 @@ class person{
   constructor(name,age){
     this.name=name;
     this.age=age;}
-  introduce(){
+  this.introduce=function(){
   console.log("My name is "+this.name+"."+"I am  "+this.age+"years old.")
 }
 }
