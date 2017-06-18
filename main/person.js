@@ -4,7 +4,7 @@ class person{
     this.age=age;
   }
 }
-introduce=function(){
+  tostring(){
   console.log("my name is"+person.name+"my age is"+person.age)
 }
 module.exports = person
