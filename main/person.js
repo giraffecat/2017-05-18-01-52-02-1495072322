@@ -5,6 +5,6 @@ class person{
   }
 }
   tostring(){
-  console.log("my name is"+person.name+"my age is"+person.age)
+  return "my name is"+person.name+"my age is"+person.age;
 }
 module.exports = person
