@@ -4,6 +4,6 @@ class person{
     this.age=age;
   }
   toString(){
-  return "my name is"+this.name+"my age is"+this.age;}
+  console.log( "my name is"+this.name+"my age is"+this.age;)}
 }
 module.exports = person
